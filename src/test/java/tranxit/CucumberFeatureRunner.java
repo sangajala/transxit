@@ -16,8 +16,8 @@ import org.openqa.selenium.WebDriver;
 @CucumberOptions(
         tags = "@login"
         ,format = {"pretty",
-        "html:target/cucumberHtmlReports",
-        "json:target/cucumberJsonReports"
+        "html:target/cucumberHtmlReports.html",
+        "json:target/cucumberJsonReports.json"
 })
 public class CucumberFeatureRunner {
     static WebDriver browser;
