@@ -68,7 +68,7 @@
                         <!-- <testClassesDirectory>s360UIAutomationCC/src/main/java</testClassesDirectory> -->
                         <!--<testSourceDirectory>s360UIAutomationCC/src/main/java</testSourceDirectory>-->
                         <includes>
-                            <include>**/**.java</include>
+                            <include>**/CucumberFeatureRunner.java</include>
                         </includes>
                         <!-- <excludes> <exclude>**/*RunCukesTest.java</exclude> </excludes> -->
                     </configuration>
