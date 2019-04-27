@@ -197,4 +197,9 @@ public class MyStepdefs1 {
         Utility utility = new Utility(browser);
         utility.insertData();
     }
+
+    @Given("^he go to home page$")
+    public void heGoToHomePage() {
+
+    }
 }
