@@ -44,9 +44,9 @@ public class MyStepdefs1 {
 
     @After
     public void afterTest(Scenario scenario){
-        if(scenario.isFailed()) {
+//        if(scenario.isFailed()) {
             scenario.embed(((TakesScreenshot) browser).getScreenshotAs(OutputType.BYTES), "image/png");
-        }
+//        }
     }
 
 
