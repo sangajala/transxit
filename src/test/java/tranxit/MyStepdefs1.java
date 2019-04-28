@@ -21,8 +21,6 @@ import java.util.concurrent.TimeUnit;
 public class MyStepdefs1 {
 
 
-
-
     HomePageOLD homePage;
     ProductPage productPage;
     Checkout checkout;
