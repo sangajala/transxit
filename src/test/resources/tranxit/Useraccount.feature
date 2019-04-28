@@ -22,7 +22,7 @@ Feature:User accounts
 
    Examples:
       | Username        | Password |
-      | demo2@demo2.com | 1234567  |
+#      | demo2@demo2.com | 1234567  |
       | demo3@demo3.com | 1234567  |
 
   Scenario Outline: User should not be login with invalid credentials
